@@ -1,8 +1,10 @@
 #API LIST
 
-*Twitter
-*Trademe
-*Power Shop - Got it
+Here's a list of sweet APIs we need
+
+* Twitter
+* Trademe
+* Power Shop - Got it
 *Gmail
 *Yahoo Mail
 *Weather - Got it
