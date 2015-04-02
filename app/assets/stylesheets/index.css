@@ -1,0 +1,29 @@
+body{
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+header{
+    height:10%;
+    text-align:center;
+}
+#whole{
+  background-color: red;
+}
+
+#header {
+      top:10%;
+    height:30%;
+    width:100%;
+    background-color:black;
+    color:white;
+    text-align:center;
+}
+
+#bottom {
+    top:70%;
+    height:60%;
+    background-color:blue;
+    color:white;
+    text-align:center;
+}
