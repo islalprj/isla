@@ -5,3 +5,6 @@ Our home page will wake you up with our custom alarm, the app will proceed to gi
 
 The next stage is home automation and full control.
 
+#API list in api.md
+
+#PERSONAL RESPONSIBILITY LIST
