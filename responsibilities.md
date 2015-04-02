@@ -1,22 +1,22 @@
-Phill -
+* Phill -
   Javascript Front End
   API Master
   C# Guru
   Trello Master
   Git Master
 
-Lui -
+* Lui -
   Ruby Genie
   Hardware Genie
   Testing Meister
 
-Rohith -
+* Rohith -
   HTML
   CSS
   JS Front End
   AJAX
 
-Jay -
+* Jay -
   Rails
   Routes
   API calls
