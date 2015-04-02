@@ -15,7 +15,6 @@ header{
 #whole{
   height:90%;
   width:100%;
-  background-color: red;
 }
 
 #header {
@@ -32,4 +31,3 @@ header{
     color:white;
     text-align:center;
 }
-.ad {padding: 1em;}
