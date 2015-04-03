@@ -1,54 +1,72 @@
+/*div{
+  border-style: solid;
+  border-color:red;
+  border-width:2px;
+}*/
+
+
 html{
-  position:relative;
-  height:100%;
+  /*position:relative;*/
+  /*height:100%;*/
 }
 body{
-  height: 100%;
-  width: 100%;
+  /*height: 100%;*/
+  /*width: 100%;*/
   background-color:#B4A3E4;
-  position:relative;
+  /*position:relative;*/
 }
 header{
-    height:10%;
+    /*height:10%;*/
     text-align:center;
     color:#330C9F;
 }
-#whole{
+/*#whole{
     height:90%;
     width:100%;
-}
+}*/
 #header {
-    height:30%;
+    /*height:30%;*/
     color:#B4A3E4;
 }
 #bottom {
-    height:50%;
+    /*height:50%;*/
     color:#B4A3E4;
 }
 #footer{
   text-align:center;
-  height:50px;
-  margin:20px;
+  /*height:50px;*/
+  /*margin:20px;*/
   color:#B4A3E4;
 }
 .header{
   border-radius: 25px;
   text-align:center;
-  display:inline-block;
-  height:175px;
+  /*display:inline-block;*/
+  /*height:175px;*/
   background:#330C9F;
-  margin:20px;
+  /*margin:20px;*/
+  font-family: 'Bitter', serif;
 }
 .bottom{
     border-radius: 25px;
     text-align:center;
-    display:inline-block;
-    width:30%;
-    height:300px;
+    /*display:inline-block;*/
+    /*width:30%;*/
+    /*height:300px;*/
     background:#330C9F;
-    margin:20px;
+    /*margin:20px;*/
 }
-#App1{
+
+.breaker{height: 1em;}
+.image{
+  max-height:7em;
+  display: block;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+
+/*#App1{
   width:20%;
 }
 #App2{
@@ -57,9 +75,10 @@ header{
 #App3{
   width:20%;
 }
+*/
 #App7{
   float:left;
-  width:100px;
+  width:150px;
   background:#330C9F;
   border-radius: 15px;
 
