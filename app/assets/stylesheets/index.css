@@ -17,32 +17,27 @@ header{
     height:90%;
     width:100%;
 }
-
 #header {
     height:30%;
     color:#B4A3E4;
 }
-
 #bottom {
     height:50%;
     color:#B4A3E4;
 }
-.pure-u-1-3{
-    text-align:center;
-    display: inline-block;
-    margin:10px;
-    width:30%;
-    border: 2px solid;
-    border-radius: 25px;
+#footer{
+  text-align:center;
+  height:50px;
+  margin:20px;
+  color:#B4A3E4;
 }
 .header{
-    border-radius: 25px;
-    text-align:center;
-    display:inline-block;
-    width:30%;
-    height:175px;
-    background:#330C9F;
-    margin:20px;
+  border-radius: 25px;
+  text-align:center;
+  display:inline-block;
+  height:175px;
+  background:#330C9F;
+  margin:20px;
 }
 .bottom{
     border-radius: 25px;
@@ -53,19 +48,22 @@ header{
     background:#330C9F;
     margin:20px;
 }
+#App1{
+  width:20%;
+}
+#App2{
+  width:50%;
+}
+#App3{
+  width:20%;
+}
 #App7{
   float:left;
-  text-align:center;
   width:100px;
-  height:50px;
   background:#330C9F;
-  margin:20px;
 }
 #App8{
-  text-align:center;
-  width:150px;
-  height:50px;
   float:right;
+  width:150px;
   background:#330C9F;
-  margin:20px;
 }
