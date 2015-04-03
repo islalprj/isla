@@ -1,0 +1,35 @@
+body{
+  background: radial-gradient(circle, #CAF836,#B9F200,#BEF800);
+  color: blue;
+  font-family: helvetica;
+  font-size: 14pt;
+}
+header{
+    height:10%;
+    text-align:center;
+}
+
+.new_user{
+  align:center;
+
+}
+#whole{
+  background-color: red;
+}
+
+#header {
+      top:10%;
+    height:30%;
+    width:100%;
+    background-color:black;
+    color:white;
+    text-align:center;
+}
+
+#bottom {
+    top:70%;
+    height:60%;
+    background-color:blue;
+    color:white;
+    text-align:center;
+}

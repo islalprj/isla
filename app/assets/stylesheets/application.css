@@ -13,3 +13,9 @@
  *= require_tree .
  *= require_self
  */
+ body{
+   background: radial-gradient(circle, #CAF836,#B9F200,#BEF800);
+   color: blue;
+   font-family: helvetica;
+   font-size: 14pt;
+ }
