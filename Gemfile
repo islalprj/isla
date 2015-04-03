@@ -30,7 +30,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 require 'httparty'
-
+gem 'google-api-client', '~> 0.7.1'
 #require 'gmail'
 
 group :development, :test do
