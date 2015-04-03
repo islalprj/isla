@@ -3,8 +3,16 @@
   border-color:red;
   border-width:2px;
 }*/
+#clock{
+  font-size:7em;
+}
+.button-success {
+  background:#330C9F;
+  border-radius:10px;
+  color:#B4A3E4;
+  font-size: 110%;
 
-
+}
 html{
   /*position:relative;*/
   /*height:100%;*/
@@ -19,6 +27,8 @@ header{
     /*height:10%;*/
     text-align:center;
     color:#330C9F;
+    font-size:25px;
+
 }
 /*#whole{
     height:90%;
@@ -64,6 +74,13 @@ header{
      margin-left: auto;
      margin-right: auto;
 }
+.image1{
+  height:70em;
+  max-height:35em;
+  display: block;
+     margin-left: auto;
+     margin-right: auto;
+}
 
 
 /*#App1{
@@ -79,14 +96,14 @@ header{
 #App7{
   float:left;
   width:150px;
-  background:#330C9F;
+
   border-radius: 15px;
 
 }
 #App8{
   float:right;
   width:150px;
-  background:#330C9F;
+  /*background:#330C9F;*/
   border-radius: 15px;
 
 }
