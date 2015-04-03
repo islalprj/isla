@@ -1,0 +1,120 @@
+html{
+  position:relative;
+  height:100%;
+}
+body{
+  height: 100%;
+  width: 100%;
+  background-color:red;
+  position:relative;
+}
+header{
+    height:10%;
+    text-align:center;
+    color:#330C9F;
+}
+#whole{
+    height:90%;
+    width:100%;
+}
+#header {
+    height:30%;
+    color:#B4A3E4;
+}
+#bottom {
+    height:50%;
+    color:#B4A3E4;
+}
+#footer{
+  text-align:center;
+  height:50px;
+  margin:20px;
+  color:#B4A3E4;
+}
+.header{
+  border-radius: 25px;
+  text-align:center;
+  display:inline-block;
+  height:175px;
+  background:#330C9F;
+  margin:20px;
+}
+.bottom{
+    border-radius: 25px;
+    text-align:center;
+    display:inline-block;
+    width:30%;
+    height:300px;
+    background:#330C9F;
+    margin:20px;
+}
+#App1{
+  width:20%;
+}
+#App2{
+  width:50%;
+}
+#App3{
+  width:20%;
+}
+#App7{
+  float:left;
+  width:100px;
+  background:#330C9F;
+}
+#App8{
+  float:right;
+  width:150px;
+  background:#330C9F;
+}
+body{
+  background: radial-gradient(circle, #CAF836,#B9F200,#BEF800);
+  color: blue;
+  font-family: helvetica;
+  font-size: 14pt;
+}
+header{
+    height:10%;
+    text-align:center;
+}
+
+.new_user{
+  align:center;
+
+}
+#whole{
+  background-color: red;
+}
+
+#header {
+      top:10%;
+    height:30%;
+    width:100%;
+    background-color:black;
+    color:white;
+    text-align:center;
+}
+
+#bottom {
+    top:70%;
+    height:60%;
+    background-color:blue;
+    color:white;
+    text-align:center;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
