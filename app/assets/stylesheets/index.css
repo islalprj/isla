@@ -1,29 +1,69 @@
+html{
+  position:relative;
+  height:100%;
+}
 body{
   height: 100%;
   width: 100%;
-  background-color: white;
+  background-color:#B4A3E4;
+  position:relative;
 }
 header{
     height:10%;
     text-align:center;
+    color:#330C9F;
 }
 #whole{
-  background-color: red;
-}
-
-#header {
-      top:10%;
-    height:30%;
+    height:90%;
     width:100%;
-    background-color:black;
-    color:white;
-    text-align:center;
 }
-
+#header {
+    height:30%;
+    color:#B4A3E4;
+}
 #bottom {
-    top:70%;
-    height:60%;
-    background-color:blue;
-    color:white;
+    height:50%;
+    color:#B4A3E4;
+}
+#footer{
+  text-align:center;
+  height:50px;
+  margin:20px;
+  color:#B4A3E4;
+}
+.header{
+  border-radius: 25px;
+  text-align:center;
+  display:inline-block;
+  height:175px;
+  background:#330C9F;
+  margin:20px;
+}
+.bottom{
+    border-radius: 25px;
     text-align:center;
+    display:inline-block;
+    width:30%;
+    height:300px;
+    background:#330C9F;
+    margin:20px;
+}
+#App1{
+  width:20%;
+}
+#App2{
+  width:50%;
+}
+#App3{
+  width:20%;
+}
+#App7{
+  float:left;
+  width:100px;
+  background:#330C9F;
+}
+#App8{
+  float:right;
+  width:150px;
+  background:#330C9F;
 }
