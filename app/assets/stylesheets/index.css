@@ -61,9 +61,13 @@ header{
   float:left;
   width:100px;
   background:#330C9F;
+  border-radius: 15px;
+
 }
 #App8{
   float:right;
   width:150px;
   background:#330C9F;
+  border-radius: 15px;
+
 }
