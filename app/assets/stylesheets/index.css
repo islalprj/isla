@@ -1,13 +1,16 @@
+body{
+  background: radial-gradient(circle, #CAF836,#B9F200,#BEF800);
+  color: blue;
+  font-family: helvetica;
+  font-size: 14pt;
+}
+
+
 html{
   position:relative;
   height:100%;
 }
-body{
-  height: 100%;
-  width: 100%;
-  background-color:red;
-  position:relative;
-}
+
 header{
     height:10%;
     text-align:center;

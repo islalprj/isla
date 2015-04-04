@@ -2,8 +2,13 @@
 <html>
 <head>
   <title>Isla</title>
+
   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+  puts 1st
+  <%= link href="/stylesheets/index.css" rel="stylesheet" 'data-turbolinks-track' => true%>
+puts 2nd
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+puts 3rd
   <%= csrf_meta_tags %>
 </head>
 <body>
