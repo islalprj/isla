@@ -27,6 +27,21 @@
   <header>
     <h1>ISLA</h1>
   </header>
+  <div class="pure-menu pure-menu-horizontal">
+    <ul class="pure-menu-list">
+      <!-- <li class="pure-menu-item pure-menu-selected"><a href="#" class="pure-menu-link">Home</a></li> -->
+      <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+        <a href="#" id=" menuLink1" class="pure-menu-link">iTab</a>
+        <ul class="pure-menu-children">
+          <li class="pure-menu-item"><a href="#" class="pure-menu-link">Home Controller</a></li>
+          <li class="pure-menu-item"><a href="#" class="pure-menu-link">News</a></li>
+          <li class="pure-menu-item"><a href="#" class="pure-menu-link">Traffic</a></li>
+          <li class="pure-menu-item"><a href="#" class="pure-menu-link">Sign Out</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <div class="pure-u-1 breaker"></div>
 
   <div id="whole" class = "pure-g">
     <div id = "header" class="pure-u-1" >
@@ -42,76 +57,74 @@
           <div CLASS="pure-u-1-12"></div>
           <div class="">
             <div id='weather'>
-              <a href="http://www.accuweather.com/en/nz/wellington/250938/weather-forecast/250938" class="aw-widget-legal">
-              </a><div id="awcc1427848865754" class="aw-widget-current"  data-locationkey="" data-unit="c" data-language="en-us" data-useip="true"
-              data-uid="awcc1427848865754"></div><script type="text/javascript" src="http://oap.accuweather.com/launch.js"></script>
-            </div>
-          </div>
-          <div CLASS="pure-u-1-12"></div>
-        </div>
-      </div>
-      <div class = "header   pure-u-md-1-4" id = "App3">
-        <h3>RADIO</h3>
-        <div class="pure-u-1">
-          <div CLASS="pure-u-1-12"></div>
-          <div class="pure-u-1-9">
-            <div id='player'>
-              <img class="pure-img image" src='app/assets/images/radio2.jpg'  ></img>
-              <audio controls autoplay>
-                <source src="http://lb.zenfm.be/zenfm.mp3" type="audio/mpeg">
-                  Your browser does support the audio tag.
-                </audio>
+              <span style="display: block !important; width: 320px; text-align: center; font-family: sans-serif; font-size: 12px;"><a href="http://www.wunderground.com/cgi-bin/findweather/getForecast?query=zmw:00000.1.93436&bannertypeclick=wu_clean2day" title="Wellington, New Zealand Weather Forecast" target="_blank"><img src="http://weathersticker.wunderground.com/weathersticker/cgi-bin/banner/ban/wxBanner?bannertype=wu_clean2day_both_cond&airportcode=NZWN&ForcedCity=Wellington&ForcedState=New Zealand&wmo=93436&language=EN" alt="Find more about Weather in Wellington, NZ" width="505" ALIGN="initial-scale" /></a><br><a href="http://www.wunderground.com/cgi-bin/findweather/getForecast?query=zmw:00000.1.93436&bannertypeclick=wu_clean2day" </a></span>
               </div>
-
-
             </div>
-            <div class="pure-u-1-12"></div>
+            <div CLASS="pure-u-1-12"></div>
+          </div>
+        </div>
+        <div class = "header   pure-u-md-1-4" id = "App3">
+          <h3>RADIO</h3>
+          <div class="pure-u-1">
+            <div CLASS="pure-u-1-12"></div>
+            <div class="pure-u-1-9">
+              <div id='player'>
+                <img class="pure-img image" src='app/assets/images/radio2.jpg'  ></img>
+                <audio controls autoplay>
+                  <source src="http://lb.zenfm.be/zenfm.mp3" type="audio/mpeg">
+                    Your browser does support the audio tag.
+                  </audio>
+                </div>
+
+
+              </div>
+              <div class="pure-u-1-12"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="pure-u-1 breaker"></div>
+
+
+        <div id = "bottom"  class="pure-u-1">
+          <div class = "bottom pure-u-md-7-24" id = "App4">
+            <h3>App4</h3>
+            <img class="pure-img image1" src='app/assets/images/radio.jpg'  ></img>
+
+          </div>
+          <div class = "bottom pure-u-md-7-24" id = "App5">
+            <h3>App5</h3>
+            <img class="pure-img image1" src='app/assets/images/radio.jpg'  ></img>
+
+          </div>
+          <div class = "bottom pure-u-md-7-24" id = "App6">
+            <h3>App6</h3>
+            <img class="pure-img image1" src='app/assets/images/radio.jpg'  ></img>
+
+          </div>
+        </div>
+
+
+        <div class="pure-u-1 breaker"></div>
+
+
+        <div class="pure-u-1">
+          <div id = "footer">
+            <div class = "footer" id = "App7">
+              <button class="button-success pure-button">
+                LOGOUT
+                <i class="fa fa-sign-out"></i>
+              </button>
+              <!-- <a class="pure-button" href="#"></a> -->
+            </div>
+            <div class = "footer" id = "App8">
+              <button class="button-success pure-button">
+                NEXT
+                <i class="fa fa-hand-o-right"></i>
+              </button>
+              <!-- <a class="pure-button" href="#">NEXT PAGE</a> -->
+            </div>
           </div>
         </div>
       </div>
-
-      <div class="pure-u-1 breaker"></div>
-
-
-      <div id = "bottom"  class="pure-u-1">
-        <div class = "bottom pure-u-md-7-24" id = "App4">
-          <h3>App4</h3>
-          <img class="pure-img image1" src='app/assets/images/radio.jpg'  ></img>
-
-        </div>
-        <div class = "bottom pure-u-md-7-24" id = "App5">
-          <h3>App5</h3>
-          <img class="pure-img image1" src='app/assets/images/radio.jpg'  ></img>
-
-        </div>
-        <div class = "bottom pure-u-md-7-24" id = "App6">
-          <h3>App6</h3>
-          <img class="pure-img image1" src='app/assets/images/radio.jpg'  ></img>
-
-        </div>
-      </div>
-
-
-      <div class="pure-u-1 breaker"></div>
-
-
-      <div class="pure-u-1">
-        <div id = "footer">
-          <div class = "footer" id = "App7">
-            <button class="button-success pure-button">
-              LOGOUT
-              <i class="fa fa-sign-out"></i>
-            </button>
-            <!-- <a class="pure-button" href="#"></a> -->
-          </div>
-          <div class = "footer" id = "App8">
-            <button class="button-success pure-button">
-              NEXT
-              <i class="fa fa-hand-o-right"></i>
-            </button>
-            <!-- <a class="pure-button" href="#">NEXT PAGE</a> -->
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>
+    </body>

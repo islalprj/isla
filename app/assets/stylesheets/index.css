@@ -4,7 +4,7 @@
   border-width:2px;
 }*/
 #clock{
-  font-size:7em;
+  font-size:4em;
 }
 .button-success {
   background:#330C9F;
@@ -93,17 +93,28 @@ header{
   width:20%;
 }
 */
+.pure-menu-list {
+  width:150px;
+  border-radius: 15px;
+  /*border-radius: 25px;*/
+  text-align:center;
+  /*display:inline-block;*/
+  /*width:30%;*/
+  /*height:300px;*/
+  color:#B4A3E4;
+  background:#330C9F;
+}
+ul{
+  background:#330C9F;
+}
 #App7{
   float:left;
   width:150px;
-
   border-radius: 15px;
-
 }
 #App8{
   float:right;
   width:150px;
   /*background:#330C9F;*/
   border-radius: 15px;
-
 }
